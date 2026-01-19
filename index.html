@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviewpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/banner_small.jpg">
+</head>
+
+<body>
+    <div id="container">
+        <h2>
+            JUST WATCHED? DROP YOUR REVIEWS 🎬⭐
+        </h2>
+        <div id="content">
+        <textarea rows="5" cols="50" id="messageBox" onkeyup="countChars()"></textarea>
+        <br><br>
+        <span id="charCount">0/200 characters (200 remaining)</span>
+        </div>
+    </div>
+    <button id="voiceBtn">🎤 Speak</button>
+    <button id="submitBtn">📩 Submit</button>
+    <button id="clearBtn">🧹 Clear</button>
+    <div id="popup">Your message was submitted successfully ✅</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
